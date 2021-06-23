@@ -10,6 +10,11 @@
 - Use service workers to cache assets for offline functionality.
 - Convert an existing web application to a PWA.
 
+- Code splitting bundles of JavaScript files to reduce the page-load time.
+- Modularization of your application separates concerns and encapsulates code.
+- webpack's bundles are based on a dependency graph that manages dependencies starting at an entry point.
+- webpack is highly extensible and configurable.
+
 #### Tech Used
 - Google Lighthouse - part of Chrome DevTools, it improvides audits for performance, accessibility, and more
 
@@ -41,6 +46,18 @@
 
 - Dependency graph - when one file requires another to function properly, that second file is called a dependency. Dependency graphs are a way to visualize that, and becomes very useful as apps scale up
 
+- Bundling - an optimization technique, its when multiple JS files are merged together to reduce the number of page requests in the web browser
+
+- Code Split
+
+- Entry Point
+
+- Loaders - pre-process assets on file by file before and during the build, mostly used for non-JS files like img, HTML, CSS
+
+- Plugins - opperates bundle by byndle and delieved changes at the end of the build
+
 Performance Troubleshooting
 
 - Look at the Network tab; a lot of times poor performance of a website can be atttributed to a poor internet connection of the user's part. Test your site by mimicking various network speeds via throttling through the Network Tab of the Chrome Devtools 
+
+- Go to Views menu and select Search, then type in the name of a function or variable or whatever to see which other files depend on it
