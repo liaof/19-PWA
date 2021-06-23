@@ -56,8 +56,13 @@
 
 - Plugins - opperates bundle by byndle and delieved changes at the end of the build
 
+- Service Workers - background scripts that run in the browser, seperate from the JavaScript. They allow us to control how network requests are handled
+    When you make a change to the service worker, navgate to Chrome DevTools/Applications/Storage and check 'Unregister service workers'
+
 Performance Troubleshooting
 
 - Look at the Network tab; a lot of times poor performance of a website can be atttributed to a poor internet connection of the user's part. Test your site by mimicking various network speeds via throttling through the Network Tab of the Chrome Devtools 
 
 - Go to Views menu and select Search, then type in the name of a function or variable or whatever to see which other files depend on it
+
+npm run start:dev localhost:8080
