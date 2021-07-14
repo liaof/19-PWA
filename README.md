@@ -65,4 +65,6 @@ Performance Troubleshooting
 
 - Go to Views menu and select Search, then type in the name of a function or variable or whatever to see which other files depend on it
 
-npm run start:dev localhost:8080
+#### Commands
+- npm run build</br>
+- npm run start:dev to run via webpack, then go to @localhost:8080
